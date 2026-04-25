@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Sentiment System</title>
+</head>
+<body>
+    <h1>Sentiment Analysis</h1>
+    <form method="POST">
+        <input type="text" name="text" placeholder="Enter text">
+        <button type="submit">Analyze</button>
+    </form>
+    <p>Result: {{ sentiment }}</p>
+</body>
+</html>
