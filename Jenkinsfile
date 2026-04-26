@@ -30,6 +30,13 @@ pipeline {
         }
     }
 
+	stage('Sanity Check') {
+    steps {
+        sh 'echo "Hello from Jenkins pipeline!"'
+    }
+}
+
+
     post {
         always {
             // Archive logs or artifacts if needed
